@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <script src="game.js"></script>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <p>Rock Paper Scissors</p>
+    <div>
+        <button onclick="game(0)" id="0">Rock</button>
+        <button onclick="game(1)" id="1">Paper</button>
+        <button onclick="game(2)" id="2">Scissors</button>
+    </div>
+
+    <label for="res"></label><input type="text"
+                                    class="answer"
+                                    readonly
+                                    id="res"/>
+
+    <p><a href="https://supersimple.dev/projects/rock-paper-scissors/" target="_blank">Click here</a> to see the final version of the game</p>
+    <div>
+        <span>Win: <span id="win">0</span></span>
+        <span>Lose: <span id="lose">0</span></span>
+        <span>Draw: <span id="draw">0</span></span>
+    </div>
+</body>
+</html>

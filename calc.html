@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calcaulator</title>
+    <style>
+        div{
+            margin: 2px;
+        }
+        input[value]{
+            margin: 2px;
+            text-align: right;
+            width: 85px;
+        }
+        button{
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+<div style="border: 3px solid cadetblue; width: 100px">
+    <input type="text" readonly value="0" id="table">
+    <div>
+        <button value="7" onclick="set('7')">7</button>
+        <button value="8" onclick="set('8')">8</button>
+        <button value="9" onclick="set('9')">9</button>
+        <button value="+" onclick="set('+')">+</button>
+    </div>
+    <div>
+        <button value="4" onclick="set('4')">4</button>
+        <button value="5" onclick="set('5')">5</button>
+        <button value="6" onclick="set('6')">6</button>
+        <button value="-" onclick="set('-')">-</button>
+    </div>
+    <div>
+        <button value="1" onclick="set('1')">1</button>
+        <button value="2" onclick="set('2')">2</button>
+        <button value="3" onclick="set('3')">3</button>
+        <button value="*" onclick="set('*')">*</button>
+    </div>
+    <div>
+        <button value="C" onclick="set('C')">C</button>
+        <button value="0" onclick="set('0')">0</button>
+        <button value="=" onclick="set('=')">=</button>
+        <button value="/" onclick="set('/')">/</button>
+    </div>
+</div>
+<script src="calc.js"></script>
+</body>
+</html>

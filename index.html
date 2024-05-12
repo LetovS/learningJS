@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            margin: 15px;
+        }
+        .add{
+            background-color: greenyellow;
+        }
+        .now{
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <p>Cart Quantity</p>
+    <div>
+        <button onclick="show()">Show Quantity</button>
+        <button onclick="add()">Add to cart</button>
+        <button onclick="addTwo()">+2</button>
+        <button onclick="addThree()">+3</button>
+        <button onclick="reset()">Reset Cart</button>
+    </div>
+    <div style="border: 3px solid red">
+        <p id="show" onclick="show()">1</p>
+    </div>
+    <script src="task.js"></script>
+</body>
+</html>

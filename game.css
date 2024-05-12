@@ -1,0 +1,23 @@
+span {
+    background-color: darkorange;
+    padding: 2px;
+    margin: 3px;
+    display: inline-block;
+}
+span span {
+    background-color: greenyellow;
+    margin-left: auto;
+}
+p {
+    display: inline-block;
+    /* другие свойства */
+}
+.answer {
+    border: 1px solid red;
+    height: 30px;
+    width: auto;
+    margin-top: 3px;
+}
+#res {
+    width: 255px; /* Установка ширины в 300 пикселей */
+}
